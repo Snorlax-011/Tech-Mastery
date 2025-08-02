@@ -1,0 +1,10 @@
+# Timeline
+
+Day:1 (1 Aug 2025)  - Created the Github repository 'Tech-Mastery'.
+                    - Wrote README.md and uploaded .gitignore.
+                    - Created introduction.c (First published program).
+                    - Learning C from Kernighan & Ritchie's 'The C Programming Language' (Chapter-1).
+
+Day:2 (2 Aug 2025)  - Created the repository 'C'.
+                    - Wrote whileloop.md and formatting.md
+                    - Created temp_conversion 1&2
