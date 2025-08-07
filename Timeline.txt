@@ -8,3 +8,9 @@ Day:1 (1 Aug 2025)  - Created the Github repository 'Tech-Mastery'.
 Day:2 (2 Aug 2025)  - Created the repository 'C'.
                     - Wrote whileloop.md and formatting.md
                     - Created temp_conversion 1&2
+
+Day:3 (7 Aug 2025)  - Wrote for_loop.md and general_rule1.md
+                    - Converted temperature with for loops. (temp_for_loop 1&2)
+                    - Character I/O
+                    - Literals
+                    - End of File
