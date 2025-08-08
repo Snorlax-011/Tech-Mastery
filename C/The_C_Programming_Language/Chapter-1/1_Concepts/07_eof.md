@@ -14,7 +14,7 @@ In programming, we use return values to signal the status.
 End of file is one such value.
 
 
-Now as to why we shouldn't initialize `getchar`() as char in [Character I/O code](./Code/05_char_i_o.c) is because `getchar` might return any value and we must be prepared to declare the function with a type big enough to hold such value. That's why we used int.
+Now as to why we shouldn't initialize `getchar`() as char in [Character I/O code](../Code/05_char_i_o.c) is because `getchar` might return any value and we must be prepared to declare the function with a type big enough to hold such value. That's why we used int.
 
 A char variable is only guaranteed to be able to hold all possible characters.
 An int variable is larger and can hold all possible characters plus the special EOF value
