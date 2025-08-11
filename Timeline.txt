@@ -14,3 +14,7 @@ Day:3 (7 Aug 2025)  - Wrote for_loop.md and general_rule1.md
                     - Character I/O
                     - Literals
                     - End of File
+
+Day:4 (8 Aug 2025)  - Wrote input_output_final.md and buffering.md
+                    - in_put_out2.c
+                    - Added numbers infront of files to sort them.
