@@ -149,3 +149,67 @@ int main(void)
     }
 }
 ```
+
+# 09_char_counting.c
+```c
+//Counting Characters:
+#include <stdio.h>
+int main(void)
+{
+    long char_count;
+
+    char_count = 0;
+
+    while (getchar() != EOF)
+    {
+        ++char_count;           // everytime a new char comes from the input stream,
+    }                           // char_count will be incremented.
+    printf("%ld\n", char_count);// /n (when clicked on enter) is a character too.
+}
+```
+
+# 10_char_counting2.c
+```c
+// Char counting with for loop
+
+#include <stdio.h>
+int main(void)
+{
+    double char_count;
+
+    for (char_count = 0; getchar() != EOF; ++char_count)
+    {                               // There's nothing to do in the body of the for loop
+        ;                           // ";" is called null statement
+    }                               // In C, for loop must have a body and hence the ";"
+    printf("%.0f\n", char_count);
+}
+
+                                    // provide input and hit enter.
+                                    // If needed, provide more input and hit enter.
+                                    //Then hit Ctrl + D to signal the EOF.
+                                    // The output will be number of chars present in the input stream (including no. of \n).
+```
+
+# 11_line_counting.c
+```c
+// Line Counting:
+// An input text stream appears as a sequence of lines, each terminated by a new line.
+
+#include <stdio.h>
+
+int main(void)
+{
+    int c, line_count;
+    line_count = 0;             //if we don't initialize, line_count = garbage value.
+                                // Always initialize variables before using.
+    while((c = getchar()) != EOF)
+    {
+        if (c == '\n')
+        {
+            ++line_count;
+        }
+    }
+
+    printf("%d\n", line_count);
+}
+```

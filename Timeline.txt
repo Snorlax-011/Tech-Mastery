@@ -18,3 +18,10 @@ Day:3 (7 Aug 2025)  - Wrote for_loop.md and general_rule1.md
 Day:4 (8 Aug 2025)  - Wrote input_output_final.md and buffering.md
                     - in_put_out2.c
                     - Added numbers infront of files to sort them.
+
+Day:5 (15 Aug 2025) - pushed control_characters.md
+                    - Wrote twos_complement.md and char_count.md
+                    - pushed eof.c
+                    - char_counting.c and char_counting2.c
+                    - test_at_the_top.md
+                    - if_line_count.md

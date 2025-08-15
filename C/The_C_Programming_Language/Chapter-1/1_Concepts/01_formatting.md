@@ -19,6 +19,8 @@ Examples:
 
 printf("%6.9f", 3.14159265358979323846) --> outputs 3.141592653 (9 digits after the decimal point). Here minimum width of 6 is met since 3.141592563 contains 11 characters.
 
+`printf` uses `%f` for both `float` and `double`.
+
 Escape sequences:
 
 \t: prints a tab (indents text to the next tab stop).
